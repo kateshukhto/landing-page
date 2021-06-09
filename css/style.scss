@@ -101,12 +101,6 @@
       border-radius: 50px;
       top: 140px;
     }
-    @media (max-width:575px) {
-      flex-wrap: wrap;
-      &:after {
-        display: none;
-      }
-    }
    }
 
   &__btn {
@@ -318,6 +312,7 @@ input {
     &:hover {
     border: 1px solid #e5e5e5;
     background: #e5e5e5;
+    color:  #E8C300;
     }
    
 }
